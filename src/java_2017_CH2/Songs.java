@@ -9,7 +9,7 @@ public class Songs {
 	private int track;
 	
 	public Songs(){
-		
+		System.out.println("생성자 호출 ");
 	}
 
 	public String getTitle() {
