@@ -9,7 +9,20 @@ public class Songs {
 	private int track;
 	
 	public Songs(){
-		System.out.println("생성자 호출 ");
+		//System.out.println("생성자 호출 ");
+	}
+	
+	public Songs(String title,String artist,String album,String composer,int year,int track){
+		this.title=title;
+		this.artist=artist;
+		this.album=album;
+		this.composer=composer;
+		this.year=year;
+		this.track=track;
+	}
+	
+	public Songs(String artist,String title){
+		this(title,artist," ? "," ? ",0,0);   //만들어 놓은 생성자를 호출하는 방법!!
 	}
 
 	public String getTitle() {
