@@ -12,6 +12,9 @@ public class PaintApp {
 		Point pt2=new Point(50,100);
 		point1.show();
 		
+		point1.disappear();
+		pt2.show(false);
+		pt2.show(true);
 	}
 
 }

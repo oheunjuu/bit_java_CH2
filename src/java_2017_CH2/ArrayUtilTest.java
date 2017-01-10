@@ -1,3 +1,4 @@
+
 package java_2017_CH2;
 
 public class ArrayUtilTest {
@@ -27,7 +28,7 @@ public class ArrayUtilTest {
 		int[] a3={6,7,8,9,10};
 		int[] a4=ArrayUtil.concat(a2, a3);
 		for(int v:a4){
-			System.out.println(a4);
+			System.out.println(v);
 		}
 	}
 }

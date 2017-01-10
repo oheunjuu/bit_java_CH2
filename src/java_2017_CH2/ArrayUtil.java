@@ -53,7 +53,7 @@ public class ArrayUtil {
 //			index++; //그냥 해도 된다.
 //		}
 		
-		return null;
+		return result;
 	}
 }
 

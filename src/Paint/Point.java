@@ -28,4 +28,17 @@ public class Point {
 	public void show(){
 		System.out.println("x: "+x+" , y: "+y+"에 점을 찍었습니다. ");
 	}
+	
+	public void show(boolean visible){
+		if (visible==true){
+			show();
+		}
+		else{
+			disappear();
+		}
+	}
+	
+	public void disappear(){
+		System.out.println("x: "+x+" , y: "+y+"에 점을 지웠습니다. ");
+	}
 }
