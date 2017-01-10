@@ -96,6 +96,7 @@ public class TV {
 		}
 	}
 	
+	
 	public void status(){
 		System.out.println("Power: "+ (power ? "on":"off") + " , Channel: "+channel+" , Volume: "+volume);
 	}
